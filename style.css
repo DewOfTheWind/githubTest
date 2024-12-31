@@ -1,0 +1,117 @@
+html{
+    height:100%;
+    width:auto;
+    background-color: bisque;
+    border: 10px solid rgb(213, 232, 75);
+}
+
+.container{
+    display: grid;
+    gap:10px;
+    padding:10px;
+    background-color: rgb(86, 218, 33);
+    height:auto;
+}
+
+.website_Banner{
+    grid-column: 1 / span 3;
+    grid-row:1;
+    background-color: aquamarine;
+}
+
+.banner{
+    width:100%;
+}
+
+.image_fit{
+    width:100%;
+}
+
+.navigation_Bar{
+    grid-column: 1 / span 3;
+    grid-row:2;
+    background-color:rgb(0, 255, 119);
+}
+
+.link{
+    text-decoration:none;
+    color:rgb(111, 82, 42);
+    background-color: azure;
+    padding:10px;
+    border-radius:10px;
+}
+
+a:hover{
+    background-color:rgb(111, 82, 42);
+    color:antiquewhite;
+    font-size:105%;
+}
+
+.active{
+
+    text-decoration:none;
+    color:rgb(205, 227, 255);
+    background-color: rgb(147, 90, 16);
+    padding:10px;
+    border-radius:10px;
+    border:3px;
+}
+
+.link_design{               /*For the List Item*/
+    display:inline;
+}
+
+.centered_content{
+    text-align: center;
+}
+
+.content_Main_Span{
+    grid-column: 1 / span 3;
+    grid-row:3;
+    background-color: aqua;
+}
+
+.content_boxed_one{
+    grid-column: 1 / span 1;
+    grid-row:4;
+    background-color: aqua;
+}
+
+.content_boxed_two{
+    grid-column: 2 / span 1;
+    grid-row:4;
+    background-color: aqua;
+}
+
+.content_boxed_three{
+    grid-column: 3 / span 1;
+    grid-row:4;
+    background-color: aqua;
+}
+
+.content_boxed_four{
+    grid-column: 1 / span 1;
+    grid-row:5;
+    background-color: aquamarine;
+}
+.content_boxed_five{
+    grid-column: 2 / span 1;
+    grid-row:5;
+    background-color:aquamarine;
+}
+.content_boxed_five_plus_one{
+    grid-column: 3 / span 1;
+    grid-row:5;
+    background-color: aquamarine;
+}
+
+.footer{
+    grid-column: 1 / span 3;
+    grid-row:6;
+    background-color:blanchedalmond;
+
+}
+
+
+
+p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica}
