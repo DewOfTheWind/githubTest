@@ -15,12 +15,17 @@
 <div class="website_Banner"><img class="banner" src="images/styled_simplistic.png" alt="a piece of clothing."/></div><!--Banner-->
 
 <div class="navigation_Bar">
+  <div class="hamburger" onclick="toggleMenu()">
+    <div></div>
+    <div></div>
+    <div></div>
+  </div>
   <ul class="centered_content">
-    <li class="link_design" ><a class="link" href="index.html">Home</a></li>
-    <li class="link_design" ><a class="active" href="product.html">Clothing & Accessroies</a></li>
-    <li class="link_design" ><a class="link" href="about.html">About</a></li>
-    <li class="link_design" ><a class="link" href="contact.html">Contact</a></li>
-    <li class="link_design" ><a class="link" href="checkout.html">Checkout</a></li>
+    <li class="link_design"><a class="link" href="index.html">Home</a></li>
+    <li class="link_design"><a class="active" href="product.html">Clothing & Accessroies</a></li>
+    <li class="link_design"><a class="link" href="about.html">About</a></li>
+    <li class="link_design"><a class="link" href="contact.html">Contact</a></li>
+    <li class="link_design"><a class="link" href="checkout.html">Checkout</a></li>
   </ul>
 </div><!--To navigate between webpages-->
 
@@ -29,23 +34,25 @@
 <div class="content_boxed_one">
     <p class="item_title">Winter</p>
     <img class="image_fitted" src="images/the_wardrobe.png"/>
-    <button class="button_web_design" id="btn_winter_submit"> Learn more</button>
+    <button class="button_web_design" id="btn_winter_submit" onclick="window.location.href='winter_items.html';"> Learn more</button>
 </div>
 
 <div class="content_boxed_two">
     <p class="item_title">Summer</p>
     <img class="image_fitted" src="images/glass_ice.png"/>
-    <button class="button_web_design" id="btn_summer_submit"> Learn more</button>
+    <button class="button_web_design" id="btn_summer_submit" onclick="window.location.href='summer_selection.html';"> Learn more</button>
 </div>
 
 
 <div class="content_boxed_three">
     <p class="item_title"> Culture</p>
     <img class="image_fitted" src="images/roses_are_red.png"/>
-    <button class="button_web_design" id="btn_culture_submit"> Learn more</button>
+    <button class="button_web_design" id="btn_culture_submit" onclick="window.location.href='culture_selection.html';"> Learn more</button>
 </div>
 
 <div class="footer"><img class="image_fit" src="images/fancy_footer.png"/></div>
 </div>
+
+<script src="script.js"></script>
 </body>
 </html>

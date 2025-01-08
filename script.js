@@ -4,13 +4,13 @@ const callsInfo = document.getElementById('water_hoops_info');
 const storyInfo = document.getElementById('author');
 
 //Image file paths
-const defaultImage = 'images/o_on_w_sales_content.png'; // Default image
+const defaultImage = 'images/sales.png'; // Default image
 const hoverImage = 'images/content_one.png'; // Hover image
 
-const secondaryDefaultImage = 'images/my_phone_is_linging.png';
+const secondaryDefaultImage = 'images/contact.png';
 const secondaryHoverImage = 'images/content_two.png';
 
-const tertiaryDefaultImage = 'images/why_dont_u_call.png';
+const tertiaryDefaultImage = 'images/about.png';
 const tertiaryHoverImage = 'images/content_three.png';
 
 // Check if the dealsInfo element (id) exists and add event listeners to check for mouse
@@ -48,4 +48,9 @@ if (storyInfo) {
     };
 } else {
     console.error("The element with ID 'author' was not found.");
+}
+
+function toggleMenu() {
+    const nav = document.querySelector('.centered_content');
+    nav.classList.toggle('show');
 }
