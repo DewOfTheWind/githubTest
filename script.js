@@ -4,14 +4,14 @@ const callsInfo = document.getElementById('water_hoops_info');
 const storyInfo = document.getElementById('author');
 
 //Image file paths
-const defaultImage = 'images/sales.png'; // Default image
-const hoverImage = 'images/content_one.png'; // Hover image
+const defaultImage = 'images/content/content_filler/sales.png'; // Default image
+const hoverImage = 'images/content/content_filler/content_one.png'; // Hover image
 
-const secondaryDefaultImage = 'images/contact.png';
-const secondaryHoverImage = 'images/content_two.png';
+const secondaryDefaultImage = 'images/content/content_filler/contact.png';
+const secondaryHoverImage = 'images/content/content_filler/content_two.png';
 
-const tertiaryDefaultImage = 'images/about.png';
-const tertiaryHoverImage = 'images/content_three.png';
+const tertiaryDefaultImage = 'images/content/content_filler/about.png';
+const tertiaryHoverImage = 'images/content/content_filler/content_three.png';
 
 // Check if the dealsInfo element (id) exists and add event listeners to check for mouse
 if (dealsInfo) {
